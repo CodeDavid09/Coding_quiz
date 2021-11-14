@@ -1,0 +1,19 @@
+body{
+    font-family: 'Yuji Syuku', serif;
+    background-color: #d5f5f5;
+}
+
+h1{
+    background-color: teal;
+    color: #d5f5f5;
+    font-family: 'Yuji Syuku', serif;
+}
+
+p{
+    font-weight: bolder;
+}
+
+#start, #quit, #results {
+    font-family: 'Yuji Syuku', serif;
+
+}

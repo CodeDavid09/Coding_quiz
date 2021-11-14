@@ -5,22 +5,36 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yuji+Mai&family=Yuji+Syuku&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Assets/style.css" />
     <title>Coding Quiz</title>
 </head>
 
 <body>
     <div id="container">
-        <div id="count">Start</div>
-    <div id="timer"></div>
+        <div id="timer"></div>
         <div id="quiz">
             <h1>Timed Coding Quiz</h1>
-            <p>To complete the quiz answer each question. Be careful answering incorectly will subtract time from the clock. Good luck!</p>
+            
+                <div class="instructions">
+                    <div class="instructions-list">1. You will be allowed 15 seconds per question.</div>
+                    <div class="instructions-list">2. You will get points per each correct answer.</div>
+                    <div class="instructions-list">3. Answering a question incorrectly will subtract time from the clock.</div>
+                </div>
         </div>
-        <button id="startTime">Start Quiz</button>
-        <div id="highscores">
-            <button id="results">View higscores</button>
-        </div>
+       
+        <!-- Start Quiz Button -->
+        <div class="start_btn"><button id="start">Start Quiz</button></div>
+        <!-- Exit Quiz Button-->
+        <div class="quit_btn"></div><button id="quit">Quit</button></div>
+        <!-- View High Scores Button -->
+        <div class="result_btn"></div><button id="results">View High Scores</button></div>
+    </div>
 
-        <script src="style.js"></script>
+
+    <script src="Assets/style.js"></script>
 </body>
+
+</html>
