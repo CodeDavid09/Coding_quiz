@@ -10,10 +10,5 @@ h1{
 }
 
 p{
-    font-weight: bolder;
-}
-
-#start, #quit, #results {
-    font-family: 'Yuji Syuku', serif;
-
+    font-size: 24px;
 }
